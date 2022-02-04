@@ -11,7 +11,7 @@
 </head>
 <body >
    
-  <header class="navb">
+  <header >
     <a href="./index.html" class="logo">AMINE</a>
     <ul>
       <li><a href="./index.html">HOME</a></li>
@@ -21,74 +21,81 @@
       <li><a href="#link4">Contact</a></li>
     </ul>
   </header>
-<br><br><br><br><br>
-
-<nav >
-  
-<div class="container " >
-
-<div >
-  <h1 class="hi">Hi, I am Amine</h1>
-  <button type="button" class="btn btn-primary butt0"><a class="bottlnk" href="#link4">Email me</a></button>
-<div class="links0">
-  <a href="https://www.linkedin.com/in/amine-kefi-0b265a21b">Linkedin/</a>
-  <a href="https://www.facebook.com/amine.kefi.982/">Facebook/</a>
-  <a href="https://www.instagram.com/aminekeefi/?hl=fr">Instagram</a>
-</div>
-</div>
-<div>  <img  class="img0" src="./images/IMG-20211218-WA0012.jpg" alt=""  > </div>
-<div  id="link1">
-
-  <h3  class="tit0">― MY BACKGROUND</h3>
-  <p>
-    I’ve gone through a number of phases in my career, 
-    and each of them has informed my current work ethos and philosophy.
-     I have excelled in a number of project management roles in diverse industries, 
-     and believe that my number one asset is my ability to adapt to any challenge that is thrown my way.</p>
-</div>
-<div class="tit1" >
-  <h3 class="tit0">― SKILLS</h3>
-  <p class="par10">
-    Creativity <br>
-    Collaboration <br> 
-    Adaptability <br> 
-    
-</div>
-</div>
-
-<div class="container1" >
-
-<div><img class="img1" src="./images/IMG-20211218-WA0012.jpg" alt=""></div>
-<div><img class="img2" src="./images/IMG-20211218-WA0012.jpg" alt=""></div>
-<div><img class="img3" src="./images/IMG-20211218-WA0012.jpg" alt=""></div>
-
-</div>
-</nav>
-<section >
-<div class="container2"  id="link2">
-  <div>
-    <h3 class="exper1">― EDUCATION</h3>
-  
-  </div>
-  <div class="">
-    <p>Bachelor’s degre, Experimental Science  /  2018-2019</p>
-    <p>APPLIED LICENSE IN COMPUTER TECHNOLOGIES: Development of Information Systems</p>
-  </div>
 
 
-  <div>
-<h3 class="exper1">― WORK EXPERIENCE</h3>
+<br><br><br>
+
+
+      <nav>
+        <div class="container " >
+          <div>
+            <h1 class="hi">Hi, I am Amine</h1>
+            <button type="button" class="btn btn-primary butt0"><a class="bottlnk" href="#link4">Email me</a></button>
+            <div class="links0">
+        
+              <a href=""><img class="icon1" src="/images/icons/Facebook-w.png "alt=""  onmouseover="hover2()"  onmouseout="inhover2()" id="fb"></a>
+              <a href=""><img   class="icon1" src="/images/icons/lnk-w.png "alt=""  onmouseover="hover1()"  onmouseout="inhover1()" id="lnk"></a>
+
+              <a href="https://www.instagram.com/aminekeefi/?hl=fr"><img  class="icon1" src="./images/icons/Instagram-w.png "alt=""  onmouseover="hover3()"  onmouseout="inhover3()" id="ig"></a>
+            </div>
+          </div>
+          <div>
+            <img  class="img0" src="./images/IMG-20211218-WA0012.jpg" alt=""  > </div>
+          </nav>
 
 
 
-</div>
-<div class="">
-  <p >!! </p>
-</div>
+      <div class="container">
+        <div  id="link1">
+           <h3  class="tit0">― MY BACKGROUND</h3>
+           <p>I’ve gone through a number of phases in my career, 
+            and each of them has informed my current work ethos and philosophy.
+            I have excelled in a number of project management roles in diverse industries, 
+             and believe that my number one asset is my ability to adapt to any challenge that is thrown my way.</p>
+            </div>
+            <div class="tit1" >
+              <h3 class="tit0">― SKILLS</h3>
+              <p class="par10">
+              Creativity <br>
+              Collaboration <br> 
+              Adaptability <br> 
+            </div>
+          </div>
+        </div>
 
-<div >
+
+
+
+
+        <div class="container1" >
+          <div><img class="img1" src="./images/IMG-20211218-WA0012.jpg" alt=""></div>
+          <div><img class="img2" src="./images/IMG-20211218-WA0012.jpg" alt=""></div>
+          <div><img class="img3" src="./images/IMG-20211218-WA0012.jpg" alt=""></div>
+        </div>
+
+
+
+
+    <section>
+      <div class="container2"  id="link2">
+        <div>
+          <h3 class="exper1">― EDUCATION</h3>
+        </div>
+        <div class="">
+          <p>Bachelor’s degre, Experimental Science  /  2018-2019</p>
+          <p>APPLIED LICENSE IN COMPUTER TECHNOLOGIES: Development of Information Systems</p>
+        </div>
+          
+        <div>
+        <h3 class="exper1">― WORK EXPERIENCE</h3>
+        </div>
+
+      <div class="">
+        <p >!! </p>
+      </div>
+
+<div>
 <h3 class="exper1">― COURSES</h3>
-
 </div>
 <div class="">
 <p>!!!</p>
@@ -147,7 +154,7 @@
       <input type="checkbox" class="form-check-input" id="exampleCheck1">
       <label class="form-check-label" for="exampleCheck1">Check me out</label>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary">Send</button>
   </form>
 
 
@@ -204,6 +211,45 @@
   let header = document.querySelector('header');
   header.classList.toggle('sticky', window.scrollY > 0);
 });
+
+function hover1(){
+  document.getElementById('lnk').src="./images/icons/lnk-b.png";
+  
+}
+function inhover1(){
+  document.getElementById('lnk').src="./images/icons/lnk-w.png";
+
+}
+
+
+function hover2(){
+  document.getElementById('fb').src="./images/icons/fb-b.png";
+  
+}
+function inhover2(){
+  document.getElementById('fb').src="./images/icons/Facebook-w.png";
+
+}
+
+function hover3(){
+  document.getElementById('ig').src="./images/icons/intagram-b.png";
+  
+}
+function inhover3(){
+  document.getElementById('ig').src="./images/icons/Instagram-w.png";
+
+}
+
+
+
+
+
+
+
 </script>
+
+<img src="" alt="">
+
+
 </body>
 </html>
