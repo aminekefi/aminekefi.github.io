@@ -77,9 +77,10 @@ body {
   header a:hover{
     color: black;
     font-weight: bold;
-    transition: 1s;
-    font-size: 20px;
+    transform: scale(2);
     transition: 1s ;
+    font-size: 18px;
+    padding-left: 0px;
 }
 
 header .logo:hover{
@@ -134,14 +135,24 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 .butt0{
     margin-left: 150px;
-    margin-top: 30px;
+    margin-top: 50px;
     background: #004380;
  
 }
 
+.butt0:hover{
+
+  transition: 1s;
+  transform: scale(1.5);
+
+}
+
+
+
+
 .links0{
     margin-top: 150px;
-    margin-left: 70px;
+    margin-left: 100px;
 
 }
 
